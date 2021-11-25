@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Poppins:wght@300;400&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e4e8ef;
+}
+label {
+  text-align: center;
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: x-large;
+}
+.container {
+  width: 35%;
+  margin: 10rem auto;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
+  background-color: cadetblue;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.main {
+  display: grid;
+  padding: 10px;
+  margin: 10px;
+}
+.date {
+  margin: 5px;
+  height: 30px;
+  border: 1px solid black;
+  font-family: "Roboto", sans-serif;
+}
+.month {
+  height: 30px;
+  border: 1px solid black;
+  margin: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.year {
+  height: 30px;
+  border: 1px solid black;
+  margin: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+  border: 1px solid black;
+}
+.show {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
